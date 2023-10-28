@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block body %}
+<!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-6">
+          <div class="detail-box">
+            <h2>
+              About us
+            </h2>
+            <p>
+               Hamza Motor Service Ltd is one of a group of three companies in Kenya that deals with the sale and repair of motor vehicles. Established in 1977, we have the experience and knowledge to provide you with a reliable and professional service that caters for all your vehicles needs.
+                At CMS,we pride ourselves on doing everything in house from a simple oil
+                change to complete engine overhauls, panel beating, re-spraying, upholstery,
+                wheel and tyre services, engineering and fabrication to name but a few.
+                We are well equipped to satisfy your every need with a 7000 square foot
+                workshop, a fully equipped wheel and tyre centre, car upholstery section,
+                headlight beam setting equipment and a recovery truck. We have a modern
+                reception area for you to wait while your car is being serviced and provide
+                a free pick-up and delivery service for all cars being serviced with us
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-6">
+          <div class="img-box">
+            <img src="{% static 'images/mechanic1.jpg' %}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+{% endblock %}

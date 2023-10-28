@@ -1,0 +1,79 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block body %}
+      <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="container ">
+      <div class="heading_container heading_center">
+        <h2> Our Services </h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'images/s1.png' %}" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>
+                Maintenance
+              </h5>
+              <p>
+                  Checking your tire pressure is important
+                  for your safety as well as overall maintenance.
+                  If your car doesn’t have a tire pressure sensor or TPMS,
+                  invest a few bucks in a tire gauge and check your tire pressure regularly.
+                  Having the right tire pressure helps to improve fuel efficiency and control regular tire wear.
+                  Good tire pressure will also help you know if your vehicle is correctly aligned.
+                  Don't forget to check the spare tire!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'images/s2.png' %}" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>
+                Electrical
+              </h5>
+              <p>
+                 An electrical installation is a group of items of electrical equipment
+                  that are permanently electrically connected together and can be supplied with
+                  electricity from the works of an electricity entity or from a generating source.
+                  An item of electrical equipment may be part of more than 1 electrical installation.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              <img src="{% static 'images/s3.png' %}" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5>
+                Plumbing
+              </h5>
+              <p>
+                  plumbing, system of pipes and fixtures installed in a
+                  building for the distribution and use of potable (drinkable) water
+                  and the removal of waterborne wastes. It is usually distinguished
+                  from water and sewage systems that serve a group of buildings or a city
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          View More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+{% endblock %}
